@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { RaydiumView, SolanaTweeterView } from "../views";
+import { RaydiumView } from "../views";
 
 const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Raydium</title>
+        <title>Solana Tweeter!</title>
         <meta name="description" content="This site will fly high 🦤" />
       </Head>
       <RaydiumView />

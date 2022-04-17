@@ -17,11 +17,11 @@ export const HomeView: FC = ({}) => {
         <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div className="flex-none">
             <button className="btn btn-square btn-ghost">
-              <span className="text-4xl">🦤</span>
+              <span className="text-4xl">🐸</span>
             </button>
           </div>
           <div className="flex-1 px-2 mx-2">
-            <span className="text-lg font-bold">Caw Caw</span>
+            <span className="text-lg font-bold">Hello Ray</span>
           </div>
           <div className="flex-none">
             <WalletMultiButton className="btn btn-ghost" />
@@ -71,6 +71,13 @@ export const HomeView: FC = ({}) => {
                 <Link href="/tweeter">
                   <a className="mb-5 text-4xl font-bold hover:underline">
                     🐦 -- Solana Tweeter
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/raydium">
+                  <a className="mb-5 text-4xl font-bold hover:underline">
+                    🐦 -- Raydium
                   </a>
                 </Link>
               </li>
