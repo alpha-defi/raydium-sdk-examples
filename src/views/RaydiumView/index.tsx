@@ -32,13 +32,13 @@ export const RaydiumView: FC = ({ }) => {
                 </div>
             </div>
             <div className="max-w-4xl mx-auto">
-                <section>
+                <section className="mt-16">
                     <h1 className="mb-5 text-5xl font-bold">Raydium Mainnet Token List</h1>
                     <p>
                         This view shows how to use the SDK to access the Raydium mainnet token list, 
                         which alternatively can be viewed at https://sdk.raydium.io/token/raydium.mainnet.json.
                     </p>
-                    <div className="mt-4">
+                    <div className="mt-12">
                         <RaydiumTokenTable tokens={MAINNET_SPL_TOKENS}></RaydiumTokenTable>
                     </div>
                 </section>
