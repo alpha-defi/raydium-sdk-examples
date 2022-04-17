@@ -51,15 +51,14 @@ export const HomeView: FC = ({}) => {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <h1 className="mb-5 pb-8 text-5xl">Templates:</h1>
             <ul className="text-left leading-10">
-              <li className="mb-5">
+              {/* <li className="mb-5">
                 <Link href="/gallery">
                   <a className="text-4xl font-bold hover:underline">
                     🏞 -- NFT Gallery
                   </a>
                 </Link>
-              </li>
+              </li> */}
               {/* <li className="mb-5">
                 <Link href="/mint">
                   <a className="text-4xl font-bold hover:underline">
@@ -67,17 +66,17 @@ export const HomeView: FC = ({}) => {
                   </a>
                 </Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link href="/tweeter">
                   <a className="mb-5 text-4xl font-bold hover:underline">
                     🐦 -- Solana Tweeter
                   </a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/raydium">
                   <a className="mb-5 text-4xl font-bold hover:underline">
-                    🐦 -- Raydium
+                  🐸 -- Raydium
                   </a>
                 </Link>
               </li>
