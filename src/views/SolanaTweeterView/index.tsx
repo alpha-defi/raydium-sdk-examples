@@ -278,7 +278,7 @@ const Tweet = ({ content }: any) => {
           <div className="mx-2 opacity-50">·</div>
           <div className="opacity-50">{content.createdAgo}</div>
         </div>
-        <div className="text-xl">{content.content}</div>
+        <div className="text-xl max-w-4xl truncate">{content.content}</div>
         {content.topic ? (
           <div className="text-pink-400 my-2">#{content.topic}</div>
         ) : null}
